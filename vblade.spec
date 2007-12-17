@@ -12,7 +12,6 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL 
 Group: System/Kernel and hardware
 Url: http://sourceforge.net/projects/aoetools/
-BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
 The vblade program (storage target) exports a block device using AoE.
