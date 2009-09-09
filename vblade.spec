@@ -1,6 +1,6 @@
 %define name vblade
 %define version 18
-%define release %mkrel 1
+%define release %mkrel 2
 
 # (Nanar) TODO: An initscript !!
 
