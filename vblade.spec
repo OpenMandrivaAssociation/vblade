@@ -7,7 +7,7 @@
 Summary: Programs to export AoE block device
 Name: %{name}
 Version: %{version}
-Release: %{release}
+Release:	1
 Source0: %{name}-%{version}.tgz
 License: GPLv2
 Group: System/Kernel and hardware
