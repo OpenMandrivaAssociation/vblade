@@ -2,7 +2,7 @@ Summary: Programs to export AoE block device
 Name: vblade
 Version: 25
 Release: 1
-Source0: https://github.com/OpenAoE/vblade/archive/refs/tags/vblade-%{version}.tar.gz
+Source0: https://github.com/OpenAoE/vblade/archive/refs/tags/vblade-vblade-%{version}.tar.gz
 License: GPLv2
 Group: System/Kernel and hardware
 Url: http://sourceforge.net/projects/aoetools/
@@ -12,7 +12,7 @@ Url: http://sourceforge.net/projects/aoetools/
 The vblade program (storage target) exports a block device using AoE.
 
 %prep
-%setup -q
+%setup -qn vblade-vblade-%{version}
 
 %build
 %make CFLAGS="%optflags"
