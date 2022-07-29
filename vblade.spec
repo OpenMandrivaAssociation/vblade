@@ -1,18 +1,12 @@
-%define name vblade
-%define version 20
-%define release 3
-
-# (Nanar) TODO: An initscript !!
-
 Summary: Programs to export AoE block device
-Name: %{name}
-Version: %{version}
-Release:	1
-Source0: %{name}-%{version}.tgz
+Name: vblade
+Version: 25
+Release: 1
+Source0: https://github.com/OpenAoE/vblade/archive/refs/tags/vblade-%{version}.tar.gz
 License: GPLv2
 Group: System/Kernel and hardware
 Url: http://sourceforge.net/projects/aoetools/
-BuildRoot: %{_tmppath}/%{name}-buildroot
+
 
 %description
 The vblade program (storage target) exports a block device using AoE.
