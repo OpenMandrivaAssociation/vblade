@@ -5,7 +5,7 @@ Release: 1
 Source0: https://github.com/OpenAoE/vblade/archive/refs/tags/vblade-vblade-%{version}.tar.gz
 License: GPLv2
 Group: System/Kernel and hardware
-Url: http://sourceforge.net/projects/aoetools/
+Url: https://sourceforge.net/projects/aoetools/
 
 
 %description
